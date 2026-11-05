@@ -1,56 +1,104 @@
-# Welcome to your Expo app 👋
+# TaskFlow – Smart To-Do Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile task management application built using **React Native, Expo, and TypeScript** to help users organize daily activities, manage priorities, and improve productivity.
 
-## Get started
+## About the Project
 
-1. Install dependencies
+TaskFlow is designed to make everyday task management simple and organized. Users can create tasks, assign categories and priorities, set due dates and reminder times, and track their progress through an intuitive mobile interface.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Task Management:** Add, edit, delete, and complete tasks.
+- **Priority Management:** High, Medium, and Low priorities.
+- **Categories:** College, Learning, Projects, and Personal.
+- **Due Dates:** Select task deadlines.
+- **Custom Reminders:** Set preferred reminder times.
+- **Local Notifications:** Receive task reminders.
+- **Search:** Find tasks by title.
+- **Smart Filters:** Filter by category and completion status.
+- **Task Sorting:** Sort by priority and creation time.
+- **Progress Tracking:** Monitor completed and pending tasks.
+- **Persistent Storage:** Save tasks locally using AsyncStorage.
 
-   ```bash
-   npx expo start
-   ```
+## Technologies Used
 
-In the output, you'll find options to open the app in a
+| Technology | Purpose |
+|---|---|
+| React Native | Mobile app development |
+| Expo | Development and Android builds |
+| TypeScript | Programming language |
+| Expo Router | Navigation |
+| AsyncStorage | Local data storage |
+| Expo Notifications | Local notifications |
+| DateTimePicker | Date and time selection |
+| Git & GitHub | Version control |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Getting Started
 
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Prerequisites
 
-## Get a fresh project
+- Node.js
+- npm
+- Git
+- Visual Studio Code
 
-When you're ready, run:
+### Installation
+
+Clone the repository:
 
 ```bash
-npm run reset-project
+git clone https://github.com/Shreya01-source/TaskFlow.git
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+Move into the project directory:
 
-### Other setup steps
+```bash
+cd TaskFlow
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Install dependencies:
 
-## Learn more
+```bash
+npm install
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+Start the application:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+Scan the QR code using Expo Go on a compatible device.
 
-Join our community of developers creating universal apps.
+## Project Structure
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```text
+TaskFlow/
+├── assets/
+│   └── images/
+├── src/
+│   └── app/
+│       └── index.tsx
+├── app.json
+├── eas.json
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
+## Future Enhancements
+
+- Dark mode
+- Recurring tasks
+- Calendar-based task overview
+- Cloud synchronization
+- Productivity analytics
+- Improved notification reliability
+
+## Author
+
+**Shreya**
+
+GitHub: [Shreya01-source](https://github.com/Shreya01-source)
+
+**Project Repository:** [TaskFlow](https://github.com/Shreya01-source/TaskFlow)
